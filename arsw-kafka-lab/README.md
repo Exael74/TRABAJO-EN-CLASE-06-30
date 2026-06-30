@@ -21,15 +21,15 @@ Esto levanta:
 ## Crear topics
 
 ```bash
-docker exec -it arsw-kafka kafka-topics.sh --bootstrap-server localhost:9092 --create --topic orders --partitions 3 --replication-factor 1
-docker exec -it arsw-kafka kafka-topics.sh --bootstrap-server localhost:9092 --create --topic payments --partitions 3 --replication-factor 1
-docker exec -it arsw-kafka kafka-topics.sh --bootstrap-server localhost:9092 --create --topic inventory --partitions 3 --replication-factor 1
+docker exec -it arsw-kafka /opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --topic orders --partitions 3 --replication-factor 1
+docker exec -it arsw-kafka /opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --topic payments --partitions 3 --replication-factor 1
+docker exec -it arsw-kafka /opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --create --topic inventory --partitions 3 --replication-factor 1
 ```
 
 Verificar:
 
 ```bash
-docker exec -it arsw-kafka kafka-topics.sh --bootstrap-server localhost:9092 --list
+docker exec -it arsw-kafka /opt/kafka/bin/kafka-topics.sh --bootstrap-server localhost:9092 --list
 ```
 
 ## Verificar Kafka UI

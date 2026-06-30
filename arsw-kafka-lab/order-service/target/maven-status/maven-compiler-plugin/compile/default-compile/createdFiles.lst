@@ -1,0 +1,8 @@
+edu\eci\arsw\kafka\producer\OrderEventProducer.class
+edu\eci\arsw\kafka\dto\PaymentProcessedEvent.class
+edu\eci\arsw\kafka\OrderServiceApplication.class
+edu\eci\arsw\kafka\controller\OrderController.class
+edu\eci\arsw\kafka\dto\InventoryProcessedEvent.class
+edu\eci\arsw\kafka\dto\CreateOrderRequest.class
+edu\eci\arsw\kafka\dto\OrderCreatedEvent.class
+edu\eci\arsw\kafka\config\KafkaTopicConfig.class
