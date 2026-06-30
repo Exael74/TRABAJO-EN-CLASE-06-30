@@ -30,6 +30,11 @@ public class PaymentServiceConsumer {
             log.info("PaymentService skipping already processed event: {}", event.getEventId());
             return;
         }
+
+        if (event.getCustomerId() == null || event.getCustomerId().isBlank()) {
+            throw new IllegalArgumentException("customerId cannot be null or empty for order " + event.getOrderId());
+        }
+
         log.info("PaymentService received order: {}", event.getOrderId());
 
         String status;
