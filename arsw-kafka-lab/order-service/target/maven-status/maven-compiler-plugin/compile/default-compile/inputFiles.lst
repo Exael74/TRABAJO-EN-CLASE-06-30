@@ -1,6 +1,8 @@
 C:\Users\stive\Desktop\ARSW INTER\TALLER 0630\arsw-kafka-lab\order-service\src\main\java\edu\eci\arsw\kafka\consumer\InventoryServiceConsumer.java
 C:\Users\stive\Desktop\ARSW INTER\TALLER 0630\arsw-kafka-lab\order-service\src\main\java\edu\eci\arsw\kafka\consumer\NotificationServiceConsumer.java
 C:\Users\stive\Desktop\ARSW INTER\TALLER 0630\arsw-kafka-lab\order-service\src\main\java\edu\eci\arsw\kafka\dto\OrderCreatedEvent.java
+C:\Users\stive\Desktop\ARSW INTER\TALLER 0630\arsw-kafka-lab\order-service\src\main\java\edu\eci\arsw\kafka\config\KafkaErrorHandlerConfig.java
+C:\Users\stive\Desktop\ARSW INTER\TALLER 0630\arsw-kafka-lab\order-service\src\main\java\edu\eci\arsw\kafka\service\EventIdempotencyService.java
 C:\Users\stive\Desktop\ARSW INTER\TALLER 0630\arsw-kafka-lab\order-service\src\main\java\edu\eci\arsw\kafka\config\KafkaProducerConfig.java
 C:\Users\stive\Desktop\ARSW INTER\TALLER 0630\arsw-kafka-lab\order-service\src\main\java\edu\eci\arsw\kafka\controller\OrderController.java
 C:\Users\stive\Desktop\ARSW INTER\TALLER 0630\arsw-kafka-lab\order-service\src\main\java\edu\eci\arsw\kafka\dto\CreateOrderRequest.java

@@ -11,5 +11,7 @@ edu\eci\arsw\kafka\OrderServiceApplication.class
 edu\eci\arsw\kafka\controller\OrderController.class
 edu\eci\arsw\kafka\consumer\NotificationServiceConsumer.class
 edu\eci\arsw\kafka\consumer\PaymentServiceConsumer.class
+edu\eci\arsw\kafka\config\KafkaErrorHandlerConfig.class
 edu\eci\arsw\kafka\producer\InventoryEventProducer.class
 edu\eci\arsw\kafka\producer\PaymentEventProducer.class
+edu\eci\arsw\kafka\service\EventIdempotencyService.class
